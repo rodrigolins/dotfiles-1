@@ -1,0 +1,19 @@
+[color]
+  ui = true
+
+[core]
+  excludesfile = ~/.gitignore
+  safecrlf = true
+
+[mergetool]
+	keepBackup = true
+
+[push]
+  default = current
+
+[include]
+  path = ~/.gitconfig_local
+  path = ~/.gitaliases
+[user]
+	email = myoung34@my.apsu.edu
+	name = Marcus Young
